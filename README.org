@@ -72,6 +72,14 @@
     However, after playing with these switches for a while it is clear that they
     do not feel as positive as the Panasonic switches, have a higher force than
     even the longer-life version and the leaver is too flexible.
+***** Lever pads
+      The micro-switch leavers are a bit too narrow for comfort and it would be
+      better if pads, plates or some other extension were added.  Currently
+      small pads of [[http://www.polymorphplastic.co.uk/][Polymorph]] are used, created by rolling-out a thin sheet,
+      cutting small rectangles, heating them and folding over the end of the
+      leavers, flattening and trimming with scissors.  This process is a bit
+      tedious but quite effective and the result has a good feel and durability
+      without the need for 3D-printing.
 * First Prototype
   Finger-cluster prototypes with the standard and long-lifetime Panasonic
   swtiches operate well and although the lower force standard switches feel
