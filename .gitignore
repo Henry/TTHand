@@ -1,0 +1,24 @@
+# Compiled Object files
+*.o
+
+# Dependency files
+*.d
+
+# Autosaves
+*~
+
+# Ignore the entire build directory
+build
+
+# Binary and hex upload files
+*.elf
+*.hex
+
+# Image files used to generate the keboard legends
+*.pnm
+
+# Utilities
+thconf
+
+# Messeges sent to Geekhack
+Geekhack

@@ -1,0 +1,86 @@
+#+TITLE: *TTHand: Minimum movement keyboard using Cherry MX and micro-switches and a Laser Trackball*
+#+AUTHOR: nil
+#+EMAIL: no-reply
+#+OPTIONS: author:nil email:nil ^:{}
+#+LaTeX_HEADER: \usepackage[parfill]{parskip}
+#+STARTUP: hidestars odd
+
+* Aim
+  The no defunct [[http://en.wikipedia.org/wiki/DataHand][DataHand]] keyboard is a very interesting input device but with a
+  few serious limitations the greatest of which is that it is no longer in
+  production and there is no indication that production will ever resume.
+  However, there is sufficient interest in this form of keyboard that the
+  excellent [[https://geekhack.org/index.php?topic=41422.0][DodoHand]] project has been setup to create an open-source version of
+  the DataHand using state of the art 3D-printing methods to create the
+  opto/magnetic switches.  While this is very promising it relies on very high
+  quality and expensive 3D-printing methods and cheap filament-based techniques
+  are not suitable.
+
+  The aim of this project is to create a DataHand equivalent from scratch using
+  readily available switches and components and avoiding the need for
+  3D-printing.  A benefit of using spring/contact switches over the
+  optical/magnetic switches in the DataHand is that they have better tactile
+  feel and are more consistent but arranging them close enough is tricky.
+* Images
+  Here is the first prototype for the right-hand unit:
+  [[https://github.com/Henry/TTHand/raw/master/Images/TTHand.jpg]]
+* Choosing the Switches
+*** Down-switches
+    Low force Cherry MX, either the linear "red" or tactile "brown".  One switch
+    is required for each finger and thumb.  Obtaining Cherry MX switches in the
+    UK from The Keyboard Company:
+    + 10x [[http://www.keyboardco.com/product/cherry-key-switch-module-brown-tactile.asp][Brown]]
+    + 10x [[http://www.keyboardco.com/product/cherry-key-switch-module-red-soft-linear.asp][Red]]
+***** Centre Keycaps
+      Need keycaps with long stems, ideally with a spherical rather than
+      cylindrical finger shape.  One possibility is row 3 of the Signature
+      Plastics SA range but these do not seem to be available anymore.  Only the
+      DCS and DSA are readily available but the DSA are two low, only row 5 of
+      the DCS family are tall enough.  These shape of keycaps are readily
+      available from many sources, in particular the Keyboard Company, from
+      which the top row of the Filco keypad set are suitable.
+***** Thumb keycaps
+      One option is to use the double length DSA keycap from Signature Plastics:
+      + Thumbs: 2x 4INHEAKS78  DSA Extra Blank Keys 2 Space Deep Dish-Black (NDY)
+      but if the Filco keypad set are used for the finger keys the DCS "enter"
+      keycap could be used.
+*** Side-switches
+    There is not enough space to use Cherry MX for the side switches and small
+    tactile switches generally require too much force and do not have a good
+    feel.  Having tried a Microwriter which uses Cherry micro-switches it is
+    clear that these would be a very good choice if they will fit in the space
+    available.  In the DecaKeyer I played with both Cherry and Panasonic
+    micro-switches and found that the Panasonics to have a slightly better feel
+    and are more readily available in the UK.  RS-Components stock a large range
+    of Panasonic micro-switches, the AVT and AVL types being most suitable as
+    the leaver is more robust and has less lateral play.  The "L" versions are
+    longer-life (at least mechanical) but the actuation force on the plunger is
+    1.47N compared with 0.98N for the standard "T" versions (lower force
+    versions are also available, 0.49N and 0.25N).  The long-leaver [[http://uk.rs-online.com/web/p/microswitches/6990511/?searchTerm=699-0511&relevancy-data=636F3D3126696E3D4931384E525353746F636B4E756D6265724D504E266C753D656E266D6D3D6D61746368616C6C26706D3D5E5C647B337D5B5C732D2F255C2E2C5D5C647B332C347D2426706F3D313426736E3D592673743D52535F53544F434B5F4E554D4245522677633D4E4F4E45267573743D3639392D3035313126][AVT323461]]
+    has an actuation force of 0.25N whereas the long-life long-leaver [[http://uk.rs-online.com/web/p/microswitches/6994664/?searchTerm=699-4664&relevancy-data=636F3D3126696E3D4931384E525353746F636B4E756D6265724D504E266C753D656E266D6D3D6D61746368616C6C26706D3D5E5C647B337D5B5C732D2F255C2E2C5D5C647B332C347D2426706F3D313426736E3D592673743D52535F53544F434B5F4E554D4245522677633D4E4F4E45267573743D3639392D3436363426][AVL3835613]]
+    has an actuation force of 0.44N which is may be too high for finger switches
+    but maybe good for thumb switches.
+
+    The DB3 range of Cherry switches might be suitable alternative and are
+    cheaper than the equivalent Panasonic.  Rapid Electronics stock the full
+    range of DB3 micro-switches for £1.04:
+    + Cherry DB3C-A1LD Microswitch, Long Lever, product code [[http://www.rapidonline.com/Electronic-Components/Cherry-DB3C-A1LD-Microswitch-SPDT-0-1A-250V-AC-Long-Lever-Solder-50-2582][50-2582]] £1.04
+    However, after playing with these switches for a while it is clear that they
+    do not feel as positive as the Panasonic switches, have a higher force than
+    even the longer-life version and the leaver is too flexible.
+* First Prototype
+  Finger-cluster prototypes with the standard and long-lifetime Panasonic
+  swtiches operate well and although the lower force standard switches feel
+  better in some respects the long-lifetime switches require the same force as
+  the Cherry MX down switch and this consistency feels good.  Also the click is
+  even more positive on the long-lifetime switches so the first complete
+  prototype has these switches to see if the force is acceptable for typing.
+
+  The switches are mounted (glued) on to cross-shaped ABS plates glued to the
+  heads of M6 bolts and bolted to the ABS base-plate to allow changes in height
+  and orientation.  The hand-rest it hand-carved out of a piece of laminated EPE
+  packing-foam which is quite easy to work with a modeling saw and coarse
+  glasspaper and has a very nice warm comfortable feel.  It is so good that I am
+  not planning to change the material in subsequent versions as this is easy to
+  replace when it gets dirty and also washable and different shapes can easily
+  be made for other hand shapes and sizes.
