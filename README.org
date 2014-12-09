@@ -21,6 +21,10 @@
   3D-printing.  A benefit of using spring/contact switches over the
   optical/magnetic switches in the DataHand is that they have better tactile
   feel and are more consistent but arranging them close enough is tricky.
+
+  Once a basic prototype is operational it is planned to add a laser trackball
+  in the same arrangement as the [[https://github.com/Henry/TrackHand][TrackHand]] option for the DataHand DH200
+  and proposed for inclusion in the DodoHand.
 * Images
   Here is the first prototype for the right-hand unit:
   [[https://github.com/Henry/TTHand/raw/master/Images/TTHand.jpg]]
