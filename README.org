@@ -1,4 +1,4 @@
-#+TITLE: *TTHand: Minimum movement keyboard using Cherry MX and micro-switches and a Laser Trackball*
+#+TITLE: *TactileTrackHand: Minimum movement keyboard with Laser Trackball*
 #+AUTHOR: nil
 #+EMAIL: no-reply
 #+OPTIONS: author:nil email:nil ^:{}
